@@ -1,0 +1,55 @@
+body{ 
+  font-family: system-ui, -apple-system, Roboto, "Helvetica Neue", Arial;
+  padding: 8px; 
+  background:#f7f7f9; 
+  color:#111; 
+}
+.container{ 
+  background:#fff; 
+  border-radius:8px; 
+  padding:16px; 
+  box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+}
+input, button { 
+  border:1px solid #e0e0e0; 
+  border-radius:6px; 
+  padding:8px; 
+}
+button { 
+  background:#036; 
+  color:#fff; 
+  cursor:pointer; 
+}
+button[disabled] { 
+  opacity:0.6; 
+  cursor:not-allowed; 
+}
+
+@media(min-width:800px){ 
+  .container{ 
+    margin-top:24px; 
+  } 
+}
+
+.modal { 
+  position:fixed; 
+  left:50%; 
+  top:50%; transform:translate(-50%,-50%); 
+  background:#fff; 
+  padding:16px; 
+  border-radius:8px; 
+  z-index:1000; 
+  box-shadow:0 6px 18px rgba(0,0,0,0.15)
+}
+
+.otp-toast{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  z-index: 9999;
+}

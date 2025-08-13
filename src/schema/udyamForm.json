@@ -1,0 +1,24 @@
+{
+  "title": "Udyam Registration",
+  "steps": [
+    {
+      "id": 1,
+      "title": "Business & Identity",
+      "fields": [
+        { "name": "businessName", "label": "Business Name", "type": "text", "required": true },
+        { "name": "ownerName", "label": "Owner / Proprietor Name", "type": "text", "required": true },
+        { "name": "aadhaar", "label": "Aadhaar Number", "type": "text", "required": true },
+        { "name": "pan", "label": "PAN Number", "type": "text", "required": true }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Address & Submit",
+      "fields": [
+        { "name": "pinCode", "label": "PIN Code", "type": "text", "required": false },
+        { "name": "city", "label": "City", "type": "text" },
+        { "name": "state", "label": "State", "type": "text" }
+      ]
+    }
+  ]
+}

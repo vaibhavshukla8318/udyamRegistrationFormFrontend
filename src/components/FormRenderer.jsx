@@ -65,7 +65,8 @@ export default function FormRenderer() {
     try {
       const payload = { ...form, aadhaarVerified, panVerified };
       const res = await submitRegistration(payload);
-      alert('Registration saved, owner name: ' + res.data.ownerName);
+      console.log(res);
+      alert('Registration Successful: ' + res.data.id);
 
       // Reset form, errors, verification, and step
       setForm({});
